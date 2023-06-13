@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
 header {
@@ -9,7 +10,7 @@ header {
   justify-content: space-between;
   align-items: center;
 
-  height: 50px;
+  height: 80px;
   padding: 20px 5%;
 }
 
@@ -19,8 +20,29 @@ header {
   gap: 5px;
 }
 
+.logo span {
+  font-weight: 700;
+}
+
 nav {
   display: flex;
   align-items: center;
   gap: 30px;
+}
+
+section {
+  overflow-x: hidden;
+}
+
+.promotion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 5%;
+}
+
+.promotion-header--title {
+  font-weight: 700;
+  color: #161616;
 }
